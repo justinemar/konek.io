@@ -13,7 +13,19 @@ You need to use at least node 7 to run this project.
 * Run `npm run nodemon`
 * Run `npm run dev`
 
-# Testing
+## Environments
+
+|Variable|Value|
+|----|----|
+|PORT| Server listen port|
+|DB_HOST| MongoDB host|
+|DB_PORT| MongoDB port|
+|DB_NAME| MongoDB database|
+|DB_USER| MongoDB username|
+|DB_PASS| MongoDB password|
+|SECRET_KEY| Secret base key for generating sessions|
+
+## Testing
 
 * Run `npm test`
 
